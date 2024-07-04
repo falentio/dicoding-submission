@@ -1,0 +1,16 @@
+/**
+ * Saya menggunakan variabel untuk meng konfigurasi tema pada web ini.
+ * Karena menurut saya, menggunakan variabel akan membuat kode CSS lebih rapi
+ */
+
+body {
+    --background-color: white;
+    --color: #020617;
+    --border: #93c5fd;
+}
+
+body.dark {
+    --background-color: #020617;
+    --color: #e2e8f0;
+    --border: #1d4ed8;
+}

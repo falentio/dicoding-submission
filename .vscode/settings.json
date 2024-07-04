@@ -1,0 +1,12 @@
+{
+    "deno.enable": true,
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        },
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    }
+}

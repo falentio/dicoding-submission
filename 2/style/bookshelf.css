@@ -1,0 +1,16 @@
+.bookshelf {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .bookshelf {
+        flex-direction: row;
+    }
+}
+
+.bookshelf>* {
+    flex: 1
+}

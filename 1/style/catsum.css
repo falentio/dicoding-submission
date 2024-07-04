@@ -1,0 +1,24 @@
+.catsum-container button {
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+}
+
+.catsum-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.catsum-container div {
+    height: 16rem;
+    width: 16rem;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.catsum-container img {
+    height: 16rem;
+    width: 16rem;
+    object-fit: cover;
+}
